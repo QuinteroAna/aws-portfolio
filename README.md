@@ -1,4 +1,4 @@
-\# AWS Portfolio Website
+\ AWS Portfolio Website
 
 
 
@@ -6,7 +6,7 @@ Personal portfolio website developed as a Cloud and DevOps project.
 
 
 
-\## Technologies
+\Technologies
 
 
 
@@ -26,7 +26,7 @@ Personal portfolio website developed as a Cloud and DevOps project.
 
 
 
-\## Features
+\Features
 
 
 
@@ -40,7 +40,7 @@ Personal portfolio website developed as a Cloud and DevOps project.
 
 
 
-\## Run with Docker
+\ Run with Docker
 
 
 
@@ -60,21 +60,19 @@ docker run -d -p 8080:80 --name meu-site aws-portfolio
 
 
 
-\## Project Architecture
+\ Project Architecture
 
 
 
 Developer
 
-↓
 
 GitHub
 
-↓
+
 
 GitHub Actions
 
-↓
 
 Amazon S3
 
@@ -86,19 +84,19 @@ Container Architecture
 
 Dockerfile
 
-↓
+
 
 Docker Image
 
-↓
+
 
 Docker Container
 
-↓
+
 
 Nginx
 
-↓
+
 
 Website
 

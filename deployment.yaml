@@ -1,0 +1,27 @@
+apiVersion: apps/v1
+kind: Deployment
+
+metadata:
+  name: portfolio
+
+spec:
+  replicas: 3
+
+  selector:
+    matchLabels:
+      app: portfolio
+
+  template:
+    metadata:
+      labels:
+        app: portfolio
+
+    spec:
+      containers:
+      - name: portfolio
+        image: aws-portfolio:latest
+
+        imagePullPolicy: IfNotPresent
+
+        ports:
+        - containerPort: 80

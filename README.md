@@ -83,9 +83,26 @@ Source Control with Git
 Infrastructure Fundamentals
 Cloud-Native Concepts
 
-# Future Improvements
-Terraform Infrastructure as Code
-AWS EC2 Deployment
-AWS EKS Integration
-CI/CD Pipeline Enhancements
-Monitoring with Prometheus and Grafana
+# MySQL & SQL
+This project also includes a simple relational database model implemented in MySQL.
+
+Tables:
+
+CLIENTES
+PRODUTOS
+PEDIDOS
+
+Topics practiced:
+
+Primary Keys
+Foreign Keys
+INNER JOIN
+GROUP BY
+Data Modeling
+SQL Queries
+
+Files:
+
+mysql-schema.sql
+sample-data.sql
+queries.sql
